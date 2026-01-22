@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}" // 覆盖src下所有TSX/JSX文件
   ],
   theme: {
     extend: {},
